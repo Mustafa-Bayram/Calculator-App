@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Hesap Makinesi</h1>
+      <div class="cal" id="ana-div">
+        <div class="col">
+          <button class="tus sayi" data-num="1">1</button>
+          <button class="tus sayi" data-num="2">2</button>
+          <button class="tus sayi" data-num="3">3</button>
+          <button id="topla" class="tus islem" data-islem="+">+</button>
+        </div>
+        <div class="col">
+          <div class="tus sayi" data-num="button4">4</div>
+          <div class="tus sayi" data-num="5">5</div>
+          <div class="tus sayi" data-num="6">6</div>
+          <div id="cikar" class="tus islem" data-islem="-">-</div>
+        </div>
+        <div class="col">
+          <div class="tus sayi" data-num="7">7</div>
+          <div class="tus sayi" data-num="8">8</div>
+          <div class="tus sayi" data-num="9">9</div>
+          <div id="carp" class="tus islem" data-islem="*">*</div>
+        </div>
+        <div class="col">
+          <div class="tus sayi" data-num="0">0</div>
+          <div id="hesapla" class="tus hesap" data-num="=">=</div>
+          <div id="temizle" class="tus temiz" data-num="C">C</div>
+          <div id="bol" class="tus islem" data-islem="/">/</div>
+        </div>
+        <div class="col">
+          <div class="tus ekran"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
