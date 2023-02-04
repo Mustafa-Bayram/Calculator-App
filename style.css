@@ -55,3 +55,34 @@ h1{
   letter-spacing: 2px;
   width: 100%;
 }
+@media screen and (max-width: 400px) {
+  .cal{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.6rem;
+
+  }
+  .col{
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .tus{
+    width: 70px;
+    height: 70px;
+    font-size: 1rem;
+  }
+  .ekran{
+    padding: 0 1rem;
+    width: 100%;
+  }
+}
+  
